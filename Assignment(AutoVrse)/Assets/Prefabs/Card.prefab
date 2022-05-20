@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 408228287744729161}
   - component: {fileID: 3359290874964873094}
   - component: {fileID: 8622185568983104382}
+  - component: {fileID: 8474202704831706030}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -467,6 +468,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &8474202704831706030
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408228287744729142}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cfb8af0bf6781144dba56233878c9a93, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1855969096152453175
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Card
 {
     private int cardNumber;
-    private bool isExposed;
+    
 
     public Card(int cardNumber)
     {     

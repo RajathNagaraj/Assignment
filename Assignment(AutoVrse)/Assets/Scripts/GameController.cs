@@ -82,7 +82,8 @@ public class GameController : MonoBehaviour
             //Getting a reference to the visual card and then destroying it
             Transform cardTransform = cards[cards.Count - 1];
             cards.Remove(cardTransform);
-            Destroy(cardTransform.gameObject);
+            cardTransform.GetComponent<CardController>().Discard();
+            Destroy(cardTransform.gameObject,2f);
         }
         else
         {
@@ -95,6 +96,8 @@ public class GameController : MonoBehaviour
         if (deck.Peek() != 0)
         {
             Debug.Log("Peeking Deck");
+            Transform cardTransform = cards[cards.Count - 1];
+            cardTransform.GetComponent<CardController>().Flip();
             Debug.Log("The top card number is " + deck.Peek());
         }
         else

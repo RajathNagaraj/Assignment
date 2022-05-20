@@ -538,7 +538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727741827}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -4.14, z: -10}
+  m_LocalPosition: {x: 0, y: -1.77, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1413,7 +1413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FloorCentre: {fileID: 802400903}
-  cardPrefab: {fileID: 408228287744729162, guid: 406d6b0d24f581f4fb521a718528de62, type: 3}
+  cardPrefab: {fileID: 408228287744729162, guid: cade4b0fbbdb5f445a7289b445c85c9c, type: 3}
 --- !u!4 &1830784258
 Transform:
   m_ObjectHideFlags: 0
